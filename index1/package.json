@@ -1,0 +1,20 @@
+{
+  "name": "index1",
+  "version": "1.0.0",
+  "description": "a npm start project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo hello world",
+    "start": "echo start",
+    "dev": "npm run test & npm run start"
+  },
+  "author": "wenxin",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.4"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
+  }
+}
